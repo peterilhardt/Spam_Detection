@@ -1,0 +1,12 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="https <= 0.5\n100.0%\n[0.717, 0.283]", fillcolor="#e581399b"] ;
+1 [label="70.6%\n[1.0, 0.0]", fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="meeting <= 1.5\n29.4%\n[0.022, 0.978]", fillcolor="#399de5f9"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="28.9%\n[0.0, 1.0]", fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label="0.5%\n[1.0, 0.0]", fillcolor="#e58139ff"] ;
+2 -> 4 ;
+}
